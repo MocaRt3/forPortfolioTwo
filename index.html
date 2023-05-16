@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav class="navigation">
+      <picture>
+        <source srcset="img/icons/logo-min.png" media="screen and (max-width: 320px)">
+        <img src="img/icons/logo1.png" alt="логотип сайта" class="header__logo">
+      </picture>
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Проекты</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Этапы</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">FAQ</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+      </ul>
+      <button aria-label="Найти" class="search">
+        <svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect class="search__icon" x="19.5138" y="18.5495" width="8" height="2" transform="rotate(45 19.5138 18.5495)"
+            fill="currentColor" />
+          <circle class="search__icon" cx="11.5" cy="11.5" r="10.5" stroke="currentColor" stroke-width="2" />
+        </svg>
+      </button>
+      <button aria-label="меню" class="header__burger">
+        <span class="firstline line"></span>
+        <span class="secondline line"></span>
+        <span class="thirdline line"></span>
+      </button>
+    </nav>
+  </header>
+  <main class="container main">
+    <section class="hero">
+
+      <div class="swiper-container" data-mobile="false">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Проектные решения любой сложности
+          </h1>
+          <p class="hero__text">
+            Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов
+          </p>
+          <a href="#" class="hero__button button">Заказать расчёт</a>
+        </div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/hero.webp" alt="картинка сладйера"></div>
+          <div class="swiper-slide"><img src="img/apartment.webp" alt="картинка сладйера"></div>
+          <div class="swiper-slide"><img src="img/brown.webp" alt="картинка сладйера"></div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <h2 class="title">О нас</h2>
+      <p class="about-us__decription">
+        Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда
+        внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А
+        также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что
+        убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых
+        концептуальных решений! Следует отметить, что высококачественный прототип <span
+          class="about-us__texticon"></span> будущего проекта предопределяет высокую востребованность позиций,
+        занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что
+        высококачественный прототип будущего проекта способствует повышению качества экспериментов.
+      </p>
+      <div class="cards">
+        <article class="article">
+          <div class="article__innerwrap">
+            <p class="article__text">
+              Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и
+              реализации новых принципов.
+            </p>
+            <a href="#" class="atricle__button">Подробнее</a>
+          </div>
+        </article>
+        <ul class="cards__list">
+          <li class="cards__items">
+            <h3 class="cards__title">
+              Консультация с широким активом
+            </h3>
+            <p class="cards__text">
+              А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных,
+              так и внешне зависимых концептуальных решений.
+            </p>
+          </li>
+          <li class="cards__items">
+            <h3 class="cards__title">
+              В своём стремлении повысить
+            </h3>
+            <p class="cards__text">
+              Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный
+              эксперимент проверки прогресса профессионального сообщества.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="ourworkprocess">
+      <h2 class="title ourworkprocess__title">Как мы работаем</h2>
+      <ul class="ourworkprocess__steplist">
+        <li class="ourworkprocess__steps"><a href="#" class="ourworkprocess__link active">1 шаг</a></li>
+        <li class="ourworkprocess__steps"><a href="#" class="ourworkprocess__link">2 шаг</a></li>
+        <li class="ourworkprocess__steps"><a href="#" class="ourworkprocess__link">3 шаг</a></li>
+        <li class="ourworkprocess__steps"><a href="#" class="ourworkprocess__link">4 шаг</a></li>
+      </ul>
+      <div class="ourworkprocess__innerwrap">
+        <div class="ourworkprocess__article">
+          <h3 class="cards__title">Проводим консультацию</h3>
+          <p class="cards__text ourworkprocess__text">
+            Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации
+            современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены
+            соответствующими инстанциями. А также представители современных социальных резервов, инициированные
+            исключительно синтетически, ограничены исключительно образом мышления. Являясь всего лишь частью общей
+            картины, реплицированные с зарубежных источников, современные исследования подвергнуты целой серии
+            независимых исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают
+            чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+          </p>
+          <div class="ourworkprocess__buttonwrap">
+            <a href="#" aria-label="ссылка подробнее" class="ourworkprocess__yellowbutton">Подробнее</a>
+            <a href="#" aria-label="ссылка договор" class="ourworkprocess__whitebutton">Договор</a>
+          </div>
+        </div>
+        <img src="img/Rectangle18.webp" alt="человек рисует схему" class="ourworkprocess__picture">
+      </div>
+    </section>
+    <section class="faq">
+      <h3 class="faq__title title">Часто задаваемые вопросы</h3>
+      <ul id="accordion" class="faq__list">
+        <li class="faq__item">
+          <button class="cards__title cards__title-marginright">Из чего формируется конечная стоимость проекта?</button>
+          <p class="faq__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id nam quisquam, sapiente
+            accusamus laboriosam? Libero aspernatur voluptatibus atque accusantium fugit at, nemo, quo perferendis,
+            praesentium rem cum officiis molestiae.
+            Voluptatum maxime quaerat laborum earum deserunt? Quae, vitae at. Consequatur sit autem ex, voluptatibus ad
+            pariatur ipsa delectus doloremque? Fuga ipsa iusto quo, quasi non earum ipsam at fugiat minus!
+            Dolorem quaerat tempore sunt nihil dolor provident, quidem deleniti nam unde velit eos quia. Voluptatem
+            asperiores esse hic iusto blanditiis consequatur sunt ullam, reiciendis perferendis? Repudiandae dolores
+            esse eaque ducimus!
+          </p>
+        </li>
+        <li class="faq__item">
+          <button class="cards__title cards__title-marginright">У меня есть свой проект. Сможем ли мы его доработать /
+            реализовать?</button>
+          <p class="faq__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id nam quisquam, sapiente
+            accusamus laboriosam? Libero aspernatur voluptatibus atque accusantium fugit at, nemo, quo perferendis,
+            praesentium rem cum officiis molestiae.
+            Voluptatum maxime quaerat laborum earum deserunt? Quae, vitae at. Consequatur sit autem ex, voluptatibus ad
+            pariatur ipsa delectus doloremque? Fuga ipsa iusto quo, quasi non earum ipsam at fugiat minus!
+            Dolorem quaerat tempore sunt nihil dolor provident, quidem deleniti nam unde velit eos quia. Voluptatem
+            asperiores esse hic iusto blanditiis consequatur sunt ullam, reiciendis perferendis? Repudiandae dolores
+            esse eaque ducimus!
+          </p>
+        </li>
+        <li class="faq__item">
+          <button class="cards__title cards__title-marginright">Я выбираю между разными компаниями. В чём ваше
+            отличие?</button>
+          <p class="faq__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id nam quisquam, sapiente
+            accusamus laboriosam? Libero aspernatur voluptatibus atque accusantium fugit at, nemo, quo perferendis,
+            praesentium rem cum officiis molestiae.
+            Voluptatum maxime quaerat laborum earum deserunt? Quae, vitae at. Consequatur sit autem ex, voluptatibus ad
+            pariatur ipsa delectus doloremque? Fuga ipsa iusto quo, quasi non earum ipsam at fugiat minus!
+            Dolorem quaerat tempore sunt nihil dolor provident, quidem deleniti nam unde velit eos quia. Voluptatem
+            asperiores esse hic iusto blanditiis consequatur sunt ullam, reiciendis perferendis? Repudiandae dolores
+            esse eaque ducimus!
+          </p>
+        </li>
+        <li class="faq__item">
+          <button class="cards__title cards__title-marginright">Могу ли я делегировать вам работу / согласование с
+            подрядчиком / организацией? </button>
+          <p class="faq__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id nam quisquam, sapiente
+            accusamus laboriosam? Libero aspernatur voluptatibus atque accusantium fugit at, nemo, quo perferendis,
+            praesentium rem cum officiis molestiae.
+            Voluptatum maxime quaerat laborum earum deserunt? Quae, vitae at. Consequatur sit autem ex, voluptatibus ad
+            pariatur ipsa delectus doloremque? Fuga ipsa iusto quo, quasi non earum ipsam at fugiat minus!
+            Dolorem quaerat tempore sunt nihil dolor provident, quidem deleniti nam unde velit eos quia. Voluptatem
+            asperiores esse hic iusto blanditiis consequatur sunt ullam, reiciendis perferendis? Repudiandae dolores
+            esse eaque ducimus!
+          </p>
+        </li>
+        <li class="faq__item">
+          <button class="cards__title cards__title-marginright">Могу ли я вернуть деньги на каком-либо из этапов
+            работ?</button>
+          <p class="faq__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse id nam quisquam, sapiente
+            accusamus laboriosam? Libero aspernatur voluptatibus atque accusantium fugit at, nemo, quo perferendis,
+            praesentium rem cum officiis molestiae.
+            Voluptatum maxime quaerat laborum earum deserunt? Quae, vitae at. Consequatur sit autem ex, voluptatibus ad
+            pariatur ipsa delectus doloremque? Fuga ipsa iusto quo, quasi non earum ipsam at fugiat minus!
+            Dolorem quaerat tempore sunt nihil dolor provident, quidem deleniti nam unde velit eos quia. Voluptatem
+            asperiores esse hic iusto blanditiis consequatur sunt ullam, reiciendis perferendis? Repudiandae dolores
+            esse eaque ducimus!
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer container">
+    <div class="footer__leftside d-none">
+      <img src="img/icons/logo2.png" alt="лого" class="footer__logo-desctop">
+      <p class="footer__text">
+        Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+        разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким
+        образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании
+        стандартных подходов.
+      </p>
+      <ul class="footer__sociallist">
+        <li class="footer__socialitem"><a href="" class="footer__facebook" aria-label="facebook"></a></li>
+        <li class="footer__socialitem"><a href="" class="footer__vk" aria-label="vk"></a></li>
+        <li class="footer__socialitem"><a href="" class="footer__instagam" aria-label="instagram"></a></li>
+      </ul>
+    </div>
+    <div class="footer__centreside">
+      <h2 class="title footer__title">Оставить заявку</h2>
+      <form action="POST" class="footer__form">
+        <input class="footer__input" type="text" id="name" placeholder="Фамилия, имя и отчество*">
+        <label for="name" class="sr-only">Фамилия Имя Отчество</label>
+        <input class="footer__input" type="email" id="email" placeholder="E-mail*">
+        <label for="email" class="sr-only">электронная почта</label>
+        <textarea name="footer__text" id="message" cols="30" rows="7" class="footer__textarea"
+          placeholder="Сообщение"></textarea>
+        <label for="message" class="sr-only"></label>
+        <div class="footer__buttonwrapper">
+          <button class="footer__button">Отправить данные</button>
+          <div class="checkwrapper">
+            <input checked aria-label="отметить согласие на обработку данных" type="checkbox" name="personaldate"
+              id="4">
+            <label for="4" class="checkbox_label">Согласен на обработку данных</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="footer__rightside">
+      <img src="img/icons/logo2.png" alt="лого" class="footer__logo-desktop">
+      <ul class="footer__navlist">
+        <li class="footer__navitem"><a href="#" class="footer__navlink">О нас </a></li>
+        <li class="footer__navitem"><a href="#" class="footer__navlink">Проекты</a></li>
+        <li class="footer__navitem"><a href="#" class="footer__navlink">Отзывы</a></li>
+        <li class="footer__navitem"><a href="#" class="footer__navlink">Договор оферты</a></li>
+        <li class="footer__navitem"><a href="#" class="footer__navlink">Договор подряда</a></li>
+        <li class="footer__navitem"><a href="#" class="footer__navlink">Конфиденциальность</a></li>
+        <li class="footer__navitem"><a href="#" class="footer__navlink">Партнёрское соглашение</a></li>
+      </ul>
+      <ul class="footer__sociallist-tablet">
+        <li class="footer__socialitem"><a href="" class="footer__facebook" aria-label="facebook"></a></li>
+        <li class="footer__socialitem"><a href="" class="footer__vk" aria-label="vk"></a></li>
+        <li class="footer__socialitem"><a href="" class="footer__instagam" aria-label="instagram"></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#accordion").accordion();
+    });
+  </script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/bodyscroll.js"></script>
+</body>
+
+</html>
